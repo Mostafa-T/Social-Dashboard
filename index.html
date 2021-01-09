@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  
+  <title>Frontend Mentor | Social Dashboard</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"> 
+
+  <!-- Style sheet -->
+  <link rel="stylesheet" href="./style.css">
+
+
+</head>
+<body> 
+
+
+
+
+  <div class="dashboard">
+
+    <div class="dashboard__header">
+      <div class="header__title">
+        <h1>Social media dashboard</h1>
+        <p>total followers: <span id="followesTotal">23,004</span></p>
+      </div>
+      <div class="header__toggle">
+        <label for="darkMode">Dark Mode</label>
+        <input type="checkbox" name="darkMode" id="toggler">
+      </div>
+    </div>
+
+
+    <div class="social">
+      <div class="social__cards">
+        <!-- 1st Socail Card -->
+        <div class="cards cards--light card--facebook">
+          <div class="card__header">
+            <img src="./images/icon-facebook.svg" alt="Facebook">
+            <span>@mustafaT023</span>
+          </div>
+          <div class="card__body">
+            <h2>1987</h2>
+            <span>Followers</span>
+          </div>
+          <div class="card__footer">
+            <img src="./images/icon-up.svg" alt="increase">
+            <span class="high--results">12 Today</span>
+          </div>
+        </div>
+
+        <!-- 2nd Social card -->
+        <div class="cards cards--light card--twitter">
+          <div class="card__header">
+            <img src="./images/icon-twitter.svg" alt="Twitter">
+            <span>@mustafaT023</span>
+          </div>
+          <div class="card__body">
+            <h2>1044</h2>
+            <span>Followers</span>
+          </div>
+          <div class="card__footer">
+            <img src="./images/icon-up.svg" alt="increase">
+            <span class="high--results">99 Today</span>
+          </div>
+        </div>
+        <!-- 3rd social card -->
+        <div class="cards cards--light card--instagram">
+          <div class="card__header">
+            <img src="./images/icon-instagram.svg" alt="Instagram">
+            <span>@mustafaT023</span>
+          </div>
+          <div class="card__body">
+            <h2>11k</h2>
+            <span>Followers</span>
+          </div>
+          <div class="card__footer">
+            <img src="./images/icon-up.svg" alt="increase">
+            <span class="high--results">1099 Today</span>
+          </div>
+        </div>
+        <!-- 4th social card -->
+        <div class="cards cards--light card--youtube">
+          <div class="card__header">
+            <img src="./images/icon-youtube.svg" alt="Youtube">
+            <span>@mustafaT023</span>
+          </div>
+          <div class="card__body">
+            <h2>8239</h2>
+            <span>Subscribers</span>
+          </div>
+          <div class="card__footer">
+            <img src="./images/icon-down.svg" alt="increase">
+            <span class="low--results">144 Today</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="overview">
+      <div class="overview__header">
+        <h2>overview - today</h2>
+      </div>
+    </div>
+
+    <div class="overview-card">
+      <!-- 1st row -->
+      <div class="overview-card__wrapper cards--light">
+        <div class="wrapper__header">
+          <span>page views</span>
+          <img src="./images/icon-facebook.svg" alt="Facebook overview">
+        </div>
+        <div class="wrapper__footer">
+          <h3>87</h3>
+          <span class="high--results"><img src="./images/icon-up.svg" alt="increase"> 3%</span>
+        </div>
+      </div>
+      <div class="overview-card__wrapper cards--light">
+        <div class="wrapper__header">
+          <span>likes</span>
+          <img src="./images/icon-facebook.svg" alt="Facebook overview">
+        </div>
+        <div class="wrapper__footer">
+          <h3>52</h3>
+          <span class="low--results"><img src="./images/icon-down.svg" alt="increase"> 2%</span>
+        </div>
+      </div>
+      <div class="overview-card__wrapper cards--light">
+        <div class="wrapper__header">
+          <span>likes</span>
+          <img src="./images/icon-instagram.svg" alt="Facebook overview">
+        </div>
+        <div class="wrapper__footer">
+          <h3>5462</h3>
+          <span class="high--results"><img src="./images/icon-up.svg" alt="increase"> 2257%</span>
+        </div>
+      </div>
+
+      <div class="overview-card__wrapper cards--light">
+        <div class="wrapper__header">
+          <span>Profile views</span>
+          <img src="./images/icon-instagram.svg" alt="Facebook overview">
+        </div>
+        <div class="wrapper__footer">
+          <h3>52k</h3>
+          <span class="high--results"><img src="./images/icon-up.svg" alt="increase"> 1375%</span>
+        </div>
+      </div>
+      
+    </div>
+
+    <!-- Second row  -->
+    <div class="overview-card">
+      <!-- 1st row -->
+      <div class="overview-card__wrapper cards--light">
+        <div class="wrapper__header">
+          <span>Retweets</span>
+          <img src="./images/icon-twitter.svg" alt="Facebook overview">
+        </div>
+        <div class="wrapper__footer">
+          <h3>117</h3>
+          <span class="high--results"><img src="./images/icon-up.svg" alt="increase"> 303%</span>
+        </div>
+      </div>
+      <div class="overview-card__wrapper cards--light">
+        <div class="wrapper__header">
+          <span>likes</span>
+          <img src="./images/icon-twitter.svg" alt="Facebook overview">
+        </div>
+        <div class="wrapper__footer">
+          <h3>507</h3>
+          <span class="high--results"><img src="./images/icon-up.svg" alt="increase"> 553%</span>
+        </div>
+      </div>
+      <div class="overview-card__wrapper cards--light">
+        <div class="wrapper__header">
+          <span>likes</span>
+          <img src="./images/icon-youtube.svg" alt="insta overview">
+        </div>
+        <div class="wrapper__footer">
+          <h3>107</h3>
+          <span class="low--results"><img src="./images/icon-down.svg" alt="increase"> 19%</span>
+        </div>
+      </div>
+
+      <div class="overview-card__wrapper cards--light">
+        <div class="wrapper__header">
+          <span>Total views</span>
+          <img src="./images/icon-youtube.svg" alt="Facebook overview">
+        </div>
+        <div class="wrapper__footer">
+          <h3>1407</h3>
+          <span class="low--results"><img src="./images/icon-down.svg" alt="increase"> 12%</span>
+        </div>
+      </div>
+      
+    </div>
+
+      
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Mustafa Hussein</a>.
+  </div>
+
+  </div>
+
+  <!-- Script -->
+  <script src="./main.js" defer></script>
+</body>
+</html>
